@@ -47,6 +47,31 @@ for countrandom in 0...99 {
 }
 
 
+let label = "The width is "
+let width = 94
+let widthLabel = label + String(width)
+
+let apples = 3
+let oranges = 5
+let appleSummary = "I have \(apples) apples"
+let fruitSummary = "I hava \(apples + oranges) pieces of fruit"
+
+var occupations = [
+    "Malcolm" : "Captitain",
+    "Kaylee" : "Mechanic",
+]
 
 
+let emptyArray = [String]()
+let emptyDictionary = [String: Float]()
+
+
+
+var optionalString: String? = "Hello"
+var greeting = "Hello"
+print(optionalString == nil)
+var optionalName: String? = "John Appleseed"
+if let name = optionalName {
+    greeting = "Hello,\(name)"
+}
 
