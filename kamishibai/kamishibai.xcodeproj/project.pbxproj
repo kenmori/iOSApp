@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		297474001D571AE6003A71F7 /* kekka1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 297473FD1D571AE6003A71F7 /* kekka1.jpg */; };
+		297474011D571AE6003A71F7 /* sentaku.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 297473FE1D571AE6003A71F7 /* sentaku.jpg */; };
+		297474021D571AE6003A71F7 /* kekka2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 297473FF1D571AE6003A71F7 /* kekka2.jpg */; };
 		2988A7EF1D56119900242710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2988A7EE1D56119900242710 /* AppDelegate.swift */; };
 		2988A7F11D56119900242710 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2988A7F01D56119900242710 /* ViewController.swift */; };
 		2988A7F41D56119900242710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2988A7F21D56119900242710 /* Main.storyboard */; };
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		297473FD1D571AE6003A71F7 /* kekka1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kekka1.jpg; sourceTree = "<group>"; };
+		297473FE1D571AE6003A71F7 /* sentaku.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sentaku.jpg; sourceTree = "<group>"; };
+		297473FF1D571AE6003A71F7 /* kekka2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kekka2.jpg; sourceTree = "<group>"; };
 		2988A7E91D56119900242710 /* kamishibai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kamishibai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2988A7ED1D56119900242710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2988A7EE1D56119900242710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +86,9 @@
 				2988A7EE1D56119900242710 /* AppDelegate.swift */,
 				2988A7F01D56119900242710 /* ViewController.swift */,
 				2988A7F21D56119900242710 /* Main.storyboard */,
+				297473FD1D571AE6003A71F7 /* kekka1.jpg */,
+				297473FE1D571AE6003A71F7 /* sentaku.jpg */,
+				297473FF1D571AE6003A71F7 /* kekka2.jpg */,
 				2988A7F51D56119900242710 /* Images.xcassets */,
 				2988A7F71D56119900242710 /* LaunchScreen.xib */,
 				2988A7EC1D56119900242710 /* Supporting Files */,
@@ -192,8 +201,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				297474021D571AE6003A71F7 /* kekka2.jpg in Resources */,
 				2988A7F41D56119900242710 /* Main.storyboard in Resources */,
+				297474001D571AE6003A71F7 /* kekka1.jpg in Resources */,
 				2988A7F91D56119900242710 /* LaunchScreen.xib in Resources */,
+				297474011D571AE6003A71F7 /* sentaku.jpg in Resources */,
 				2988A7F61D56119900242710 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +421,7 @@
 				2988A80A1D56119900242710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2988A80B1D56119900242710 /* Build configuration list for PBXNativeTarget "kamishibaiTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +430,7 @@
 				2988A80D1D56119900242710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -57,8 +57,7 @@ let appleSummary = "I have \(apples) apples"
 let fruitSummary = "I hava \(apples + oranges) pieces of fruit"
 
 var occupations = [
-    "Malcolm" : "Captitain",
-    "Kaylee" : "Mechanic",
+    "Malcolm" : "Captitain",        "Kaylee" : "Mechanic",
 ]
 
 
